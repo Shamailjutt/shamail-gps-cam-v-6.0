@@ -40,7 +40,7 @@
             android:name=".AppLoginActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:screenOrientation="fullUser"
+            android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -51,14 +51,14 @@
         <activity
             android:name=".MainActivity"
             android:exported="false"
-            android:screenOrientation="fullUser"
+            android:screenOrientation="portrait"
             android:configChanges="orientation|screenSize|keyboardHidden" />
 
         <activity
             android:name=".GalleryActivity"
             android:exported="false"
             android:label="@string/gallery_title"
-            android:screenOrientation="fullUser" />
+            android:screenOrientation="portrait" />
 
         <activity
             android:name=".PhotoDetailActivity"
@@ -70,35 +70,35 @@
             android:exported="false"
             android:label="Review &amp; Customize GPS Photo"
             android:windowSoftInputMode="adjustResize"
-            android:screenOrientation="fullUser" />
+            android:screenOrientation="portrait" />
 
         <activity
             android:name=".GalleryGpsEditorActivity"
             android:exported="false"
             android:label="@string/gallery_gps_camera_title"
             android:windowSoftInputMode="adjustResize"
-            android:screenOrientation="fullUser" />
+            android:screenOrientation="portrait" />
 
         <activity
             android:name=".LocationMapPickerActivity"
             android:exported="false"
             android:label="@string/map_picker_title"
             android:windowSoftInputMode="adjustResize"
-            android:screenOrientation="fullUser" />
+            android:screenOrientation="portrait" />
 
         <activity
             android:name=".SettingsLoginActivity"
             android:exported="false"
             android:label="@string/settings_login_title"
             android:windowSoftInputMode="adjustResize"
-            android:screenOrientation="fullUser" />
+            android:screenOrientation="portrait" />
 
         <activity
             android:name=".SettingsActivity"
             android:exported="false"
             android:label="@string/settings_title"
             android:windowSoftInputMode="adjustResize"
-            android:screenOrientation="fullUser" />
+            android:screenOrientation="portrait" />
 
         <provider
             android:name="androidx.core.content.FileProvider"
